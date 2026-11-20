@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>EKODE — Digital, beyond ordinary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=IBM+Plex+Mono&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav>
+      <div class="w">
+        <div class="logo"><img src="33ADCA36-3158-4252-953A-768CC663B53B.PNG" alt="LOGO"></div>
+        <div class="brand">EKODE</div>
+        <div class="tag mono">INDEPENDENT DIGITAL STUDIO</div>
+        <div class="links"><a href="#work">Work</a><a href="#exp">Expertise</a><a href="#about">About</a></div>
+        <a class="btn o" href="#contact">Let’s talk <i>↗</i></a>
+        <div class="menu"><b></b><b></b></div>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header class="hero">
+      <div class="w">
+        <div class="kick mono">STRATEGY. DESIGN. DEVELOPMENT.</div>
+        <canvas id="torus" width="1320" height="1140"></canvas>
+        <h1 class="sg"><span><b style="--i:0">Built to</b></span><span><b style="--i:1">move you</b></span><span><b style="--i:2">forward.</b></span></h1>
+        <p class="lede rv" style="--d:.7s">We turn ambitious ideas into digital experiences<br>that feel exceptional. And work even harder.</p>
+        <div class="cta rv" style="--d:.9s"><a class="btn f" href="#work">Explore our work <i>↗</i></a><span>Your next chapter starts here.</span></div>
+        <div class="eng mono">ENGINEERED FOR WHAT’S NEXT</div>
+        <div class="base"></div>
+        <div class="fl mono" style="left:80px">DESIGNED WITH INTENT. BUILT TO LAST.</div>
+        <div class="fl mono sc" style="right:145px">SCROLL TO EXPLORE  ↓</div>
+      </div>
+    </header>
+
+    <!-- ===== MANIFESTO STRIP ===== -->
+    <section class="man">
+      <div class="w">
+        <div class="a mono rv">A SMALL STUDIO.<br>AN EXPANSIVE MINDSET.</div>
+        <h2 class="sg rv" style="--d:.15s">Beautiful by design.<br>Exceptional by engineering.</h2>
+        <p class="rv" style="--d:.3s">For brands ready to<br>do things differently.</p>
+      </div>
+    </section>
+
+    <!-- ===== SELECTED WORK ===== -->
+    <section class="work" id="work">
+      <div class="w">
+        <div class="eyebrow mono rv">01 / SELECTED WORK</div>
+        <div class="head">
+          <h2 class="big sg rv">Different challenges.<br>Same obsession.</h2>
+          <p class="rv" style="--d:.15s">Thoughtfully designed. Precisely developed.<br>A glimpse of what we can build together.</p>
+        </div>
+        <div class="cards">
+          <a class="card rv" href="#contact">
+            <div class="thumb rv" style="background:#c6d3ef">
+              <div class="inner">
+                <div style="left:38px;top:45px;width:548px;height:370px;background:#0e1526;border-radius:8px">
+                  <div style="left:0;top:0;width:548px;height:29px;background:#1a2337"></div>
+                  <p class="mono" style="left:190px;top:9px;font-size:7px;color:#91a4c4">orbit.finance / overview</p>
+                  <div style="left:12px;top:12px;width:5px;height:5px;border-radius:50%;background:#ff6159"></div>
+                  <div style="left:22px;top:12px;width:5px;height:5px;border-radius:50%;background:#ffbd2e"></div>
+                  <div style="left:32px;top:12px;width:5px;height:5px;border-radius:50%;background:#28c941"></div>
+                  <p class="sg" style="left:19px;top:50px;font:700 20px 'Space Grotesk';color:#eef3ff">orbit</p>
+                  <p style="left:19px;top:107px;font-size:9px;color:#c9d8fe">Overview</p>
+                  <p style="left:19px;top:139px;font-size:9px;color:#6e83a6">Transactions</p>
+                  <p style="left:19px;top:171px;font-size:9px;color:#6e83a6">Accounts</p>
+                  <p style="left:19px;top:203px;font-size:9px;color:#6e83a6">Analytics</p>
+                  <p class="sg" style="left:138px;top:53px;font-size:15px">Good morning, Alex</p>
+                  <p style="left:138px;top:77px;font-size:8px;color:#8f9cb6">Your finances, in a clearer orbit.</p>
+                  <div style="left:138px;top:105px;width:242px;height:100px;background:#315cff;border-radius:6px">
+                    <p style="left:16px;top:15px;font-size:9px;color:#c1cfff">Total balance</p>
+                    <p class="sg" id="bal" style="left:16px;top:36px;font-size:28px;color:#fff">$84,250.00</p>
+                    <p style="left:16px;top:77px;font-size:8px;color:#dee8ff;white-space:pre">↗  12.8% this month</p>
+                  </div>
+                  <div style="left:390px;top:105px;width:140px;height:100px;background:#202c45;border-radius:6px">
+                    <p style="left:12px;top:15px;font-size:9px;color:#acbbd4">Savings goal</p>
+                    <p class="sg" style="left:12px;top:37px;font-size:25px;color:#fff">78%</p>
+                    <div style="left:12px;top:78px;width:114px;height:4px;background:#3a4662;border-radius:2px"></div>
+                    <div class="prog" style="left:12px;top:78px;width:87px;height:4px;background:#a3c2ff;border-radius:2px"></div>
+                  </div>
+                  <div
+                      id="cf"
+                      style="left:138px;top:217px;width:242px;height:130px;background:#151f33;border-radius:6px"
+                  >
+                    <p style="left:14px;top:13px;font-size:10px;font-weight:500">Cash flow</p>
+                    <p class="mono" style="left:145px;top:15px;font-size:6px;color:#8d9bb7;white-space:pre">THIS MONTH  ↓</p>
+                  </div>
+                  <div style="left:390px;top:217px;width:140px;height:130px;background:#151f33;border-radius:6px;font-size:8px">
+                    <p style="left:12px;top:13px;font-size:9px">Recent activity</p>
+                    <p style="left:12px;top:42px;color:#9caac2">Linear</p>
+                    <p style="left:88px;top:42px">−$24.00</p>
+                    <p style="left:12px;top:69px;color:#9caac2">Figma</p>
+                    <p style="left:88px;top:69px">−$15.00</p>
+                    <p style="left:12px;top:96px;color:#9caac2">Vercel</p>
+                    <p style="left:88px;top:96px">−$20.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ti">
+              <h3 class="sg">Orbit</h3>
+              <i>↗</i>
+            </div>
+            <p class="sub">A clearer future for personal finance.</p>
+            <div class="pills mono"><span>STRATEGY</span><span>DESIGN</span><span>DEVELOPMENT</span></div>
+          </a>
+          <a class="card rv" href="#contact" style="--d:.15s">
+            <div class="thumb rv" style="background:#b8b6af">
+              <div class="inner">
+                <div style="left:38px;top:45px;width:548px;height:370px;background:#eae9e1;color:#292e24">
+                  <p class="sg" style="left:25px;top:18px;font-size:24px;color:#252723">aera®</p>
+                  <p style="left:348px;top:29px;font-size:8px;color:#454941;white-space:pre">Practice     Spaces     Contact</p>
+                  <div style="left:25px;top:62px;width:498px;height:1px;background:#c4c7bc"></div>
+                  <p class="mono" style="left:25px;top:83px;font-size:7px;color:#565b4d">SPACES FOR A MORE CONSIDERED LIFE</p>
+                  <p class="sg" style="left:25px;top:106px;font-size:49px;letter-spacing:-.05em;white-space:normal">A quieter<br>kind of bold.</p>
+                  <p style="left:25px;top:257px;font-size:9px;color:#565b4d">Architecture rooted in nature.<br>Designed around you.</p>
+                  <div
+                      id="arch"
+                      style="left:304px;top:84px;width:219px;height:245px;background:linear-gradient(90deg,#eaebe1,#969c86)"
+                  >
+                    <div style="left:24px;top:198px;width:190px;height:47px;background:#8a907b"></div>
+                    <div class="up" style="left:47px;top:27px;width:48px;height:175px;background:#b1b6a2"></div>
+                    <div style="left:95px;top:60px;width:42px;height:142px;background:#626b56"></div>
+                    <div style="left:96px;top:60px;width:98px;height:37px;background:#dee0d2"></div>
+                    <div style="left:137px;top:97px;width:57px;height:105px;background:#919980"></div>
+                    <div style="left:105px;top:109px;width:22px;height:93px;background:#c5cab6"></div>
+                  </div>
+                  <p class="mono" style="left:25px;top:318px;font-size:7px;color:#323b2b;white-space:pre">DISCOVER OUR APPROACH   ↗</p>
+                  <div style="left:25px;top:348px;width:498px;height:1px;background:#c4c7bc"></div>
+                  <p style="left:25px;top:358px;font-size:6px;color:#565b4d">Independent architecture. Enduring perspective.</p>
+                </div>
+              </div>
+            </div>
+            <div class="ti">
+              <h3 class="sg">Aera</h3>
+              <i class="fa-solid fa-arrow-up-right"></i>
+            </div>
+            <p class="sub">An architectural vision, brought to life.</p>
+            <div class="pills mono"><span>STRATEGY</span><span>DESIGN</span><span>DEVELOPMENT</span></div>
+          </a>
+        </div>
+        <div class="note mono rv"><span>ILLUSTRATIVE CONCEPT PROJECTS</span><a href="#contact">GOOD WORK STARTS WITH A CONVERSATION  ↗</a></div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERTISE ===== -->
+    <section class="exp" id="exp">
+      <div class="w">
+        <div class="l">
+          <div class="eyebrow mono rv">02 / WHAT WE DO</div>
+          <h2 class="sg rv">From first<br>thought to<br>final pixel.</h2>
+          <p class="rv">One focused team. Every essential discipline.<br>Built around your ambition, not a template.</p>
+          <a class="mono rv" href="#contact">EXPLORE OUR CAPABILITIES  ↗</a>
+        </div>
+        <div class="r">
+          <div class="sv rv">
+            <em>01</em>
+            <h3 class="sg">Strategy & direction</h3>
+            <i>↗</i>
+            <p>Clarity before creativity. We find the opportunity, define the experience, and build a roadmap that moves you forward.</p>
+            <small>DISCOVERY  /  POSITIONING  /  EXPERIENCE STRATEGY</small>
+          </div>
+          <div class="sv rv" style="--d:.1s">
+            <em>02</em>
+            <h3 class="sg">Digital design</h3>
+            <i>↗</i>
+            <p>Distinctive by nature. Intuitive by design. Digital identities and interfaces that turn first impressions into lasting ones.</p>
+            <small>ART DIRECTION  /  UX & UI  /  DESIGN SYSTEMS</small>
+          </div>
+          <div class="sv rv" style="--d:.2s">
+            <em>03</em>
+            <h3 class="sg">Web development</h3>
+            <i>↗</i>
+            <p>Fast, accessible, and built to evolve. We turn meticulous design into seamless experiences, without compromise.</p>
+            <small>CREATIVE DEVELOPMENT  /  WEB PLATFORMS  /  CMS</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section class="proc">
+      <div class="w">
+        <div class="top">
+          <div class="eyebrow mono rv" style="padding-top:16px">03 / HOW WE GET THERE</div>
+          <h2 class="sg rv">A clear path. No black boxes.</h2>
+        </div>
+        <div class="steps">
+          <div class="st rv">
+            <b>01</b>
+            <h3 class="sg">Discover</h3>
+            <p>We listen, challenge assumptions,<br>and get to the heart of your business.</p>
+          </div>
+          <div class="st rv" style="--d:.12s">
+            <b>02</b>
+            <h3 class="sg">Define</h3>
+            <p>We align on the right problem,<br>the right direction, and a clear plan.</p>
+          </div>
+          <div class="st rv" style="--d:.24s">
+            <b>03</b>
+            <h3 class="sg">Create</h3>
+            <p>We bring strategy to life through<br>considered design and development.</p>
+          </div>
+          <div class="st rv" style="--d:.36s">
+            <b>04</b>
+            <h3 class="sg">Evolve</h3>
+            <p>We launch with care, then refine<br>what matters as your business grows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+      <div class="w">
+        <div class="eyebrow mono rv">04 / THE STUDIO</div>
+        <div class="g">
+          <h2 class="sg rv">Independent minds.<br>Shared ambition.</h2>
+          <div class="r rv" style="--d:.15s">
+            <h4>We’re EKODE. A web development agency at the intersection of sharp thinking, thoughtful design, and exceptional engineering.</h4>
+            <p>We believe the best digital experiences don’t just look different. They make a difference. We work closely with ambitious teams to create a presence that feels like them, only one step ahead.</p>
+          </div>
+        </div>
+        <div class="vals rv">
+          <div>
+            <b>01</b>
+            <h3>Craft over convention.</h3>
+          </div>
+          <div>
+            <b>02</b>
+            <h3>Partnership, not handoffs.</h3>
+          </div>
+          <div>
+            <b>03</b>
+            <h3>Built for the long game.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <div class="w">
+        <div class="eb mono" style="left:80px">05 / YOUR NEXT CHAPTER</div>
+        <div class="eb mono" style="left:946px">GREAT THINGS START WITH A SIMPLE HELLO.</div>
+        <h2 class="sg rv">Let’s build<br>what’s next.</h2>
+        <a class="circ" href="mailto:support@ekode-ks.com"><span>↗</span></a>
+        <p class="ct rv">Have a bold idea or a complex challenge?<br>Let’s make something that matters.</p>
+        <a class="mail rv" href="mailto:support@ekode-ks.com">support@ekode-ks.com</a>
+        <div class="cl"></div>
+        <div class="cf mono" style="left:80px">START A CONVERSATION. CREATE SOMETHING EXCEPTIONAL.</div>
+        <div class="cf mono" style="left:1144px">OPEN TO AMBITIOUS IDEAS  ↗</div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <div class="w">
+        <div class="logo"><img src="33ADCA36-3158-4252-953A-768CC663B53B.PNG" alt="LOGO"></div>
+        <div class="brand" style="position:absolute;left:84px;display:none"></div>
+        <div class="brand" style="margin-left:16px">EKODE</div>
+        <p style="margin-left:48px">Digital, beyond ordinary.</p>
+        <div class="fl2"><a href="https://www.linkedin.com/in/erion-kalisi-3544943a2/">LinkedIn  ↗</a><a href="https://www.instagram.com/_ekode_?lqvp=MWhtaXpjd2M3amc0Zw%3D%3D&utm_source=qr">Instagram  ↗</a></div>
+        <small>© 2026 EKODE<i>WEBSITE VISION</i></small>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
